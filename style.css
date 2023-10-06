@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: #f85606;
+}
+
+.iz-top-bar {
+    width: 100%;
+}
+
+.top-bar {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-content {
+    display: none !important;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    z-index: 9999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    top: 35px;
+}
+
+.trigger:hover+.tooltip-content {
+    display: block;
+}
+
+.d-logo {
+    width: 30px;
+}
+.tooltip-content>img{
+    width: 300px;
+}
+.social-btn>img{
+    width: 140px;
+    margin-left: 10px;
+}
