@@ -1,66 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daraz</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <div class="container-xxl">
-        <nav class="navbar navbar-expand"> 
-            <div class="nav-bar">
-                <div class="top-bar">
-                    <div class="top-bar-para p-2">
-                        <p>
-                            Become a seller
-                        </p>
-                        <p>
-                            Daraz Afilliate Program
-                        </p>
-                        <p>
-                            Help & Support
-                        </p>
-                    </div>
-                    <div class="top-bar-logo">
-                        <img src="./img/top-logo.png" alt="Image"><span>Save More an App</span>
-                    </div>
-                    <div class="shop-more-card">
-                        <img src="./img/shop-more.png" alt="">
-                        <h1>
-                            Enjoy More Discount With Daraz App!
-                        </h1>
-                        <div class="show-more-card-item">
-                            <div class="left">
-                                <img src="./img/qr-img.png" alt="">
+    <nav>
+        <div class="iz-top-bar">
+            <div class="top-bar ">
+                <div class="top-para col-6 d-flex g-4">
+                    <p>
+                        Become A Seller
+                    </p>
+                    <p>
+                        Daraz Affiliate Program
+                    </p>
+                    <p>
+                        Help & About
+                    </p>
+                </div>
+                <div class="tooltip-container col-6  d-flex justify-content-end">
+                    <span class="trigger" data-toggle="tooltip" data-placement="bottom" title="">
+                        <img src="./img/top-logo.png" alt="" class="d-logo"> Show More on App</span>
+                    <div class="tooltip-content align-items-center flex-column">
+                        <img src="./img/tool-img.png" alt="Image" />
+                        <h6 style="color: #f85606; margin: 10px 0px; font-weight: 900;">Enjoy More Discount With
+                            Daraz App!</h6>
+                        <div class="qr-con d-flex align-items-center">
+                            <div class="left-qr">
+                                <img src="./img/tool-qr.png" alt="">
                             </div>
-                            <div class="right">
-                                
+                            <div class="right-qr">
+
+                                <div class="social-btn d-flex flex-column">
+                                    <img src="./img/app-store.jpg" alt="">
+                                    <img src="./img/play-store.png" alt="">
+                                    <img src="./img/huawei-appgallery-logo-C1183D6C05-seeklogo.com.png" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    
-                </div>
-                <div class="nav-bar-item row">
-                    <div class="nav-img col-lg-2 col-md-2">
-                        <img src="./img/nav-img.png" alt="" width="100px">
-                    </div>
-                    <div class="nav-input col-lg-6 col-md-6">
-                        <input type="text" placeholder="Search in Daraz" class="form-control w-100">
-                        <i class="fa-solid fa-magnifying-glass mr-2"></i>
-                    </div>
-                    <div class="nav-icon col-lg-4 col-md-4 d-flex align-items-center fw-bold text-md ">
-                        <span class="login "><i class="fa-regular fa-user p-1 mr-3"></i>Login</span>
-                        <span class="p-3">Sign Up</span>
-                        <span><i class="fa-solid fa-globe mr-2 "></i>EN<i class="fa-solid fa-angle-down"></i></span>
-                        <i class="fa-solid fa-cart-shopping p-3"></i>
-                    </div>
                 </div>
             </div>
-        </nav>
+        </div>
+        <div class="navbar">
+            <img src="./img/nav-img.png" alt="" class="col-2 ">
+            <div class="input-con col-7">
+                <input type="text" class="search-inp" placeholder="Search in Daraz">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            </div>
+            <div class="nav-icon d-flex align-items-center col-3">
+                <span><i class="fa-regular fa-user"></i> login</span>
+                <span>Sign Up</span>
+                <span class="lang"><i class="fa-solid fa-globe"></i>EN<i class="fa-solid fa-angle-down"></i></span>
+                <span><i class="fa-solid fa-cart-shopping"></i></span>
+            </div>
+        </div>
+
+    </nav>
+    <div class="main-container">
+        <div class="side-bar">
+            <ul>
+                <li>Grociery & Pet</li><span></span>
+                <li>Health & Beauty</li>
+                <li>Men's Fashion</li>
+                <li>Women Fashion</li>
+                <li>Mother & Baby</li>
+                <li>Home & Lifestyle</li>
+                <li>Electronic Devices</li>
+                <li>Electronic Accessories</li>
+                <li>TV & Home Appliances</li>
+                <li>Sports & Outdoor</li>
+                <li>Watch,Bag & Jewellery</li>
+                <li>Automotive & Motorbikes</li>
+            </ul>
+        </div>
     </div>
+
     <script src="./bootstrap/bootstrap.bundle.js"></script>
 </body>
+
 </html>
