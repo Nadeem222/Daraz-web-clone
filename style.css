@@ -17,10 +17,14 @@ nav {
     background: #f85606;
     width: 100%;
     min-width: 1240px;
+    margin: 0 auto;
+}
+.nav-con{
+    margin: 0 auto;
 }
 
 .iz-top-bar {
-    width: 1240px;
+    width: 100%;
 }
 
 .top-bar {
@@ -107,7 +111,7 @@ nav {
 }
 
 .navbar {
-    width: 1240px;
+    width: 100%;
 }
 
 .navbar img {
@@ -339,7 +343,7 @@ ul {
 }
 .category-card{
     width: 100%;
-    background-color: #F5F5F5;
+    background-color: #ffffff;
     padding: 0px 10px;
 }
 .category-card ul{
@@ -359,10 +363,15 @@ ul {
 .category-card li{
     border-right: 2px solid rgba(0, 0, 0, 0.1);
     padding: 10px 10px;
+    width: 120px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+
 }
 .category-card ul li span img{
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
 }
 .category-card ul .flash{
     border: none;
@@ -395,5 +404,80 @@ ul {
     font-size: 18px;
     font-weight: 500;
     margin-right: 15px;
+    
+}
+.order-btn button{
+    border: 1px solid #f85606;
+    background: transparent;
+    color: #f85606;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.sale-para p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.sale{
+    margin-left: 20px;
+    color: #f85606;
+}
+.end-sale{
+    margin-right: 20px;
+}
+.flash-sale{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.flash-sale h3{
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+}
+.seven{
+    margin-left: 5px;
+}
+.card-con{
+    display: flex;
+    background-color: #ffffff;
+}
+.card-1{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.price{
+    color: #f85606;
+    font-size: 18px;
+    font-weight: 500;
+}
+.card-para-1{
+    font-size: 18px;
+    font-weight: 500;
+}
+del{
+    color: rgba(0, 0, 0, 0.4);
+}
+.card-paragraph{
+    padding: 0px 10px;
+}
+
+
+
+@media screen and (min-width: 1240px){
+    .main-container{
+        width: 1440px;
+    }
+    .nav-con , .main-container{
+        width: 1440px;
+
+    }
+    .slideshow-container{
+        width: 1050px;
+    }
+    .slideshow-container img{
+        width: 100%;
+    }
     
 }
