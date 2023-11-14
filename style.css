@@ -161,6 +161,7 @@ nav {
     position: relative;
     display: flex;
     align-items: center;
+    z-index: 1;
 
 }
 
@@ -225,4 +226,174 @@ ul {
     font-weight: 500;
     color: #8d8b8b;
 
+}
+.automotive{
+    top: -335px;
+}
+.watch-bag{
+    top: -305px;
+}
+.sports-outdoor{
+    top: -275px;
+}
+.tv-home{
+    top: -245px;
+}
+.elec-assesories{
+    top: -215px;
+}
+.electronic-device{
+    top: -185px;
+}
+.home-lifestyle{
+    top: -158px;
+}
+.mother-baby{
+    top: -128px;
+}
+.womens-fashion{
+    top: -98px;
+}
+.mens-fashion{
+    top: -68px;
+}
+.hero-section{
+    display: flex;
+}
+.slideshow-container {
+    max-width: 940px;
+    position: relative;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding:  12px 5px;
+    margin-top: -22px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+.daraz-tags ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+    background-color: #FFF1EB;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 45px;
+    
+}
+.daraz-tags li{
+    padding: 0px 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+}
+.daraz-tags ul .verified{
+    border: none;
+}
+.daraz-tags a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.daraz-tags span{
+    margin-right: 5px;
+}
+.daraz-tags i{
+    margin-left: 10px;
+}
+.header{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+}
+.header img{
+    margin: 0 auto;
+}
+.category-card{
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 0px 10px;
+}
+.category-card ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border-radius: 8px;
+    
+}
+
+.category-card li span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.category-card li{
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+}
+.category-card ul li span img{
+    width: 80px;
+    height: 80px;
+}
+.category-card ul .flash{
+    border: none;
+}
+.category-card ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 14px;
+    font-weight: 400;
+}
+.category-card li a:hover{
+    color: #f85606;
+}
+.sale-timer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+    background-color: #ffffff;
+}
+.sale-para{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+
+}
+.sale-para span{
+    padding: 8px 15px;
+    background-color: #f85606;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 15px;
+    
 }
