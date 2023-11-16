@@ -168,7 +168,7 @@ nav {
 }
 
 .side-bar li {
-    margin-bottom: 10px;
+    padding: 5px 0px;
     position: relative;
     display: flex;
     align-items: center;
@@ -471,6 +471,7 @@ h3{
     color: #f85606;
     font-size: 18px;
     font-weight: 500;
+    
 }
 .card-para-1{
     font-size: 15px;
@@ -553,10 +554,57 @@ a{
     display: flex;
     width: 100%;
     gap: 10px;
+    margin-bottom: 20px;
+}
+.discount{
+    color: #8d8b8b;
+    font-size: 12px;
+}
+.dis{
+    margin-top: 20px;
+}
+.load-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px 0px;
+}
+.load-btn button{
+    padding: 8px 0px;
+    width: 300px !important;
+    border: 1px solid #f85606;
+    color: #f85606;
+    font-size: 16px;
+    font-weight: 500;
+   
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.footer-container p{
+    color: #f85606 !important;
+    font-size: 22px !important;
+}
+.daraz-int{
+    width: 22%;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+}
+.daraz-int>span img{
+    width: 40px;
+    margin-right: 5px;
+}
+.pay-method img{
+    width: 60px;
+}
+.social-icon{
+    gap: 10px;
 }
 
 
-
+/* 
 /* @media screen and (min-width: 1240px){
     .main-container{
         width: 1440px;
@@ -572,4 +620,4 @@ a{
         width: 100%;
     }
     
-} */
+} 
